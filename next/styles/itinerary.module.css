@@ -582,7 +582,6 @@
 }
 .SliderDiv {
   font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
-  /* padding: 1.25rem; */
   background-color: #ffffff;
   display: flex;
   align-items: center;
@@ -590,8 +589,7 @@
 }
 .SliderPrice {
   width: auto;
-  /* padding: 1.25rem; */
-  margin-left: 2rem;
+  margin-left: 0.5rem;
 }
 .SliderDiv4 {
   font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
@@ -673,7 +671,7 @@
   border-style: solid;
   border-width: 80px 90px 0 0;
   border-color: #faa003c2 transparent transparent transparent;
-  transform: rotate(-360deg); /* 旋转三角形 */
+  transform: rotate(-360deg); /* 旋轉三角形 */
 }
 
 .itineraryProductsDays {
@@ -682,7 +680,7 @@
   left: 10px;
   color: white;
   font-weight: bold;
-  z-index: 2; /* 确保文字在三角形上方显示 */
+  z-index: 2; /* 确保文字在三角形上方顯示 */
   font-size: 18px;
 }
 
@@ -794,27 +792,6 @@
   color: rgb(91, 90, 90);
   border: 1px solid rgb(91, 90, 90);
 }
-/* .SliderDiv2 button {
-  width: 7.5rem;
-  margin-left: 6.1875rem;
-  margin-top: 1.25rem;
-  padding: 0.275rem;
-  border: 1px solid #ffffff;
-  background-color: #ffb534;
-  color: white;
-  font-weight: bold;
-  text-decoration: none;
-  border-radius: 5px;
-  font-size: 18px;
-}
-.SliderDiv2 button:hover {
-  font-size: 16px;
-  background-color: #ff8c00;
-  color: white;
-  border: 1px solid white;
-  font-size: 18px;
-  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
-} */
 .searchBtn {
   display: flex;
   justify-content: center;
